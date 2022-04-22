@@ -6,7 +6,7 @@
 	"module": "dist/index.mjs",
 	"scripts": {
 		"lint": "prettier --write \"**/**.(ts|js|json|tsx|jsx)\"",
-		"build": "tsc\ngoss import\nnpm run lint",
+		"build": "tsc\ngoss import\nnpm run lint\ncp ./src/index.mjs ./dist/index.mjs",
 		"prepare": "npm run build\nnpm run lint"
 	},
 	"keywords": [],

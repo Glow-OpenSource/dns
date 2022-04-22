@@ -1,0 +1,1 @@
+import _m from "./index.js";export const resolve = _m.resolve;export const DefaultResolveOptions = _m.DefaultResolveOptions;export default Object.assign(_m.default || {},_m);
