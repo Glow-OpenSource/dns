@@ -4,6 +4,12 @@
 	"description": "",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",
+	"exports": {
+		"import": "./dist/index.mjs",
+		"require": "./dist/index.cjs",
+		"node": "./dist/index.mjs",
+		"default": "./dist/index.cjs"
+	},
 	"scripts": {
 		"lint": "prettier --write \"**/**.(ts|js|json|tsx|jsx)\"",
 		"build": "tsc\ngoss import\nnpm run lint\ncp ./src/index.mjs ./dist/index.mjs",
