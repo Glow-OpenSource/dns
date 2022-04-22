@@ -5,7 +5,8 @@
 	"main": "dist/index.cjs",
 	"scripts": {
 		"lint": "prettier --write \"**/**.(ts|js|json|tsx|jsx)\"",
-		"build": "tsc\ngoss import\nnpm run lint"
+		"build": "tsc\ngoss import\nnpm run lint",
+        "prepare": "npm run build\nnpm run lint"
 	},
 	"keywords": [],
 	"author": "Googlefan256 (https://opensource.glow-bot.com/)",
