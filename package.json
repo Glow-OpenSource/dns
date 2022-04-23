@@ -1,6 +1,6 @@
 {
 	"name": "@glowsrc/dns",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"description": "",
 	"main": "dist/index.cjs",
 	"module": "dist/index.mjs",
@@ -16,7 +16,9 @@
 		"build": "tsc\ngoss import\nnpm run lint\ncp ./src/index.mjs ./dist/index.mjs",
 		"prepare": "npm run build\nnpm run lint"
 	},
-	"keywords": [ "dns" ],
+	"keywords": [
+		"dns"
+	],
 	"author": "Googlefan256 (https://opensource.glow-bot.com/)",
 	"license": "MIT",
 	"devDependencies": {
