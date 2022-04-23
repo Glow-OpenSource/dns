@@ -1,33 +1,33 @@
 {
-	"name": "@glowsrc/dns",
-	"version": "0.1.6",
-	"description": "",
-	"main": "dist/index.cjs",
-	"module": "dist/index.mjs",
-	"types": "dist/index.d.ts",
-	"exports": {
-		"import": "./dist/index.mjs",
-		"require": "./dist/index.cjs",
-		"node": "./dist/index.mjs",
-		"default": "./dist/index.cjs"
-	},
-	"scripts": {
-		"lint": "prettier --write \"**/**.(ts|js|json|tsx|jsx)\"",
-		"build": "tsc\ngoss import\nnpm run lint",
-		"prepare": "npm run build\nnpm run lint"
-	},
-	"keywords": [
-		"dns"
-	],
-	"author": "Googlefan256 (https://opensource.glow-bot.com/)",
-	"license": "MIT",
-	"devDependencies": {
-		"@types/node": "^17.0.25",
-		"goss": "^0.1.4",
-		"prettier": "^2.6.2",
-		"typescript": "^4.6.3"
-	},
-	"files": [
-		"dist/"
-	]
+  "name": "@glowsrc/dns",
+  "version": "0.1.6",
+  "description": "",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs",
+    "node": "./dist/index.mjs",
+    "default": "./dist/index.cjs"
+  },
+  "scripts": {
+    "lint": "prettier --write \"**/**.(ts|js|json|tsx|jsx)\"",
+    "build": "tsc\ngoss import\nnpm run lint",
+    "prepare": "npm run build\nnpm run lint"
+  },
+  "keywords": [
+    "dns"
+  ],
+  "author": "Googlefan256 (https://opensource.glow-bot.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "goss": "^0.1.4",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "dist/"
+  ]
 }
