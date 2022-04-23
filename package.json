@@ -13,7 +13,7 @@
 	},
 	"scripts": {
 		"lint": "prettier --write \"**/**.(ts|js|json|tsx|jsx)\"",
-		"build": "tsc\ngoss import\nnpm run lint\ncp ./src/index.mjs ./dist/index.mjs",
+		"build": "tsc\ngoss import\nnpm run lint",
 		"prepare": "npm run build\nnpm run lint"
 	},
 	"keywords": [
@@ -23,7 +23,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^17.0.25",
-		"goss": "^0.1.3",
+		"goss": "^0.1.4",
 		"prettier": "^2.6.2",
 		"typescript": "^4.6.3"
 	},
