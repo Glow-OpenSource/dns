@@ -1,7 +1,7 @@
 {
   "name": "@glowsrc/dns",
   "version": "0.1.7",
-  "description": "",
+  "description": "A simple dns resolver which wraps node:dns",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -29,5 +29,7 @@
   },
   "files": [
     "dist/"
-  ]
+  ],
+	"type": "commonjs",
+	"repository": "https://github.com/Glow-OpenSource/dns"
 }
